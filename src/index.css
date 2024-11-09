@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Stopwatch Container */
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 70%);
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Time Display */
+.display {
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+
+/* Controls Container */
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Start Button */
+.start {
+  background-color: hsl(115, 100%, 40%);
+}
+.start:hover {
+  background-color: hsl(115, 100%, 35%);
+}
+
+/* Stop Button */
+.stop {
+  background-color: hsl(10, 90%, 50%);
+}
+.stop:hover {
+  background-color: hsl(10, 90%, 45%);
+}
+
+/* Reset Button */
+.reset {
+  background-color: hsl(205, 90%, 50%);
+}
+.reset:hover {
+  background-color: hsl(205, 90%, 45%);
+}
